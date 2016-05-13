@@ -97,6 +97,7 @@ LICENSE file.
     <riak.version>2.0.5</riak.version>
     <aerospike.version>3.1.2</aerospike.version>
     <solr.version>5.4.0</solr.version>
+    <playcloud>0.0.1</playcloud>
   </properties>
 
   <modules>
@@ -129,6 +130,7 @@ LICENSE file.
     <module>mongodb</module>
     <module>nosqldb</module>
     <module>orientdb</module>
+    <module>playcloud</module>
     <module>redis</module>
     <module>riak</module>
     <module>s3</module>

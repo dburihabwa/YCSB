@@ -82,7 +82,7 @@ public class PlaycloudClient extends DB {
     String port = properties.getProperty("playcloud.port");
     String url = "http://" + host + ":" + port + "/" + key;
     HttpPut request = new HttpPut(url);
-    // Perpare payload
+    // Prepare payload
     byte[] payload = {};
     if (values.size() > 0) {
       TreeMap<String, ByteIterator> sortedValues = new TreeMap<String, ByteIterator>();
